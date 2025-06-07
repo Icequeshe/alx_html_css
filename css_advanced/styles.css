@@ -336,38 +336,44 @@ header nav ul li {
   background-color: #a857db;
 }
 
+/* FAQ Section Styling */
 .faq-section {
-  background-color: #ffffff;
-  padding: 100px 20px;
-  text-align: center;
+    padding: 80px 20px; /* Adjust padding for top/bottom and sides */
+    background-color: #f8f8f8; /* A very light grey background, almost white */
+    text-align: center; /* To center the main title */
 }
 
-.faq-section h2 {
-  font-size: 36px;
-  font-weight: 400;
-  margin-bottom: 60px;
-  letter-spacing: 2px;
+.faq-section .section-title {
+    font-size: 48px; /* Adjust font size for the main "F.A.Q." title */
+    font-weight: 300; /* dark font weight */
+    color: #000000; /* Black color for the title */
+    margin-bottom: 60px; /* Space below the main title */
 }
 
-.faq-items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px 100px;
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: left;
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns, equal width */
+    gap: 60px; /* Space between the FAQ items horizontally and vertically */
+    max-width: 1000px; /* Limit the width of the FAQ content */
+    margin: 0 auto; /* Center the container */
+    text-align: left; /* Align text within FAQ items to the left */
+}
+
+.faq-item {
+    /* No specific border or background for individual items based on the image, just spacing */
 }
 
 .faq-item h3 {
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 10px;
+    font-size: 20px; /* Adjust font size for "How does this work?" */
+    font-weight: bold; /* Bold font for the question */
+    color: #000000; /* Black color */
+    margin-bottom: 15px; /* Space between question and answer */
 }
 
 .faq-item p {
-  color: #6b6b6b;
-  line-height: 1.6;
-  font-size: 14px;
+    font-size: 16px; /* Adjust font size for the answer text */
+    line-height: 1.8; /* Improve readability of the paragraph */
+    color: #606060; /* Darker grey for the text */
 }
 
 /* Footer Styling */
