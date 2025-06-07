@@ -123,3 +123,49 @@ header nav ul li {
   font-style: italic;
   color: #ffffffb3;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: #C271FF; /* Light purple background */
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.quote-section .quote-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quote-section img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-section blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote-section .author {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.quote-section .role {
+  font-style: italic;
+  color: #ddd;
+}
+
+
+
+
