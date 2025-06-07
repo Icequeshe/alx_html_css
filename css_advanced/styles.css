@@ -1,0 +1,125 @@
+/* Global Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #071629;
+}
+
+/* Header */
+header {
+  background: url('images/object.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 60px;
+  position: relative;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+header nav ul li {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 20px;
+  letter-spacing: 5px;
+}
+
+.hero .cta-btn {
+  margin-top: 40px;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #C271FF;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+/* Learn from the pros */
+.learn-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.learn-section h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.learn-section h2 span {
+  color: #C271FF;
+  font-weight: 600;
+}
+
+/* Pros Section */
+.pros {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 40px 80px;
+}
+
+.pro {
+  text-align: center;
+}
+
+.pro img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.pro h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pro p {
+  font-size: 14px;
+  font-style: italic;
+  color: #ffffffb3;
+}
